@@ -1,6 +1,6 @@
 const anthem = "Amr sonar Bangla Ami Tomay Valovasi";
 const search = 'valo';
-// .toLowerCase    //.toUpperCase
+// .toLowerCase ()   //.toUpperCase ()
 const userInput = 'blACkPinK';
 const saverdUserName = 'blackPink';
 // console.log(userInput.toLocaleLowerCase())
