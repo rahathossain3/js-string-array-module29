@@ -8,7 +8,7 @@ const withoutA = anthem.split('a');
 
 //slice()   --- string er index er upor nirvor kore surur index theke ses index er modde ar item show kore
 const smallSlice = anthem.slice(5, 13);
-// console.log(smallSlice);
+console.log(smallSlice);
 
 //substr()  --- string er surur index theke koto index obdi show korbe ta likte hoy;
 const anotherPart = anthem.substr(11, 8);
@@ -31,4 +31,4 @@ const words2 = ['alim', 'baddon', 'ccaneti', 'david'];
 // const allJoined = words2.join(' ');
 // const allJoined = words2.join(',');
 const allJoined = words2.join('www');
-console.log(allJoined);
+// console.log(allJoined);

@@ -28,6 +28,24 @@ function megaFriend(friends) {
     }
     return mege;
 }
-const friends = ['kutos', 'dssss', 'shamol', 'sabbir'];
+const friends = ['kutos', 'Lion', 'shamol', 'sabbir'];
 const myBoody = megaFriend(friends);
-console.log(myBoody);
+// console.log(myBoody);
+//indexOf()-----
+if (friends.indexOf('Lion') != -1) {
+    // console.log('lion exists');
+}
+
+//include()---
+if (friends.includes('Lion')) {
+    console.log('lion exits using includes');
+}
+
+//cancat
+const first = [3, 4, 56,];
+const second = [4, 5, 6, 7];
+const combined = first.concat(second);
+console.log(combined);
+
+
+
